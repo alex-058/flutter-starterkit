@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_starterkit/screens/home_page.dart';
+import 'package:flutter_starterkit/screens/landing_page.dart';
+import 'package:flutter_starterkit/screens/theme_info_page.dart';
 import 'package:flutter_starterkit/theme/theme.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: WAppTheme.lightTheme,
       darkTheme: WAppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: const MyHomePage(title: 'Flutter Starterkit'),
+      home: const LandingPage(title: 'Flutter Starterkit'),
     );
   }
 }
